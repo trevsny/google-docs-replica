@@ -1,5 +1,38 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Goal
+
+Build a lightweight version of Google Docs that includes:
+- login, eventually with 2-factor authentication for intial login
+- same visual look as Google Docs
+- ability to save document instantly with no user input
+- Rename title of document
+- toggle previously saved documents
+- use sockets to have two people manipulating/editing the same document
+- Undo
+- Redo
+- Change font type (limited number of fonts)
+- Change font size
+- Some way to share document with another user
+
+Include unit tests and integration tests
+
+## Dependencies
+MongoDB
+
+React
+
+Node.js
+
+Sockets.io
+
+Materialize
+
+
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
