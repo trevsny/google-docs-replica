@@ -11,6 +11,12 @@
 .fa-comment-alt {
     font-size: 25px;
 }
+.no-padding-left {
+    padding-left: 0;
+}
+.align-self-center {
+    align-self: center;
+}
 #replace-email {
     visibility: hidden;
 }

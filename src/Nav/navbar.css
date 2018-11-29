@@ -6,6 +6,7 @@
 }
 li {
     float: left;
+    margin: -3px;
 }
 
 li a {
@@ -13,19 +14,38 @@ li a {
     text-align: center;
     padding: 0 10px;
     text-decoration: none;
+    color: black;
 }
-
+li:hover {
+    background-color: #dee1e5;
+    
+}
+a:hover {
+    text-decoration: none;
+    color: black;
+}
 .navbar {
     border-bottom: 1px solid gray;
     margin: 0;
     padding: 0px;
 }
 #navbarToggle {
-    margin-left: 82px;
+    margin-left: 92px;
     margin-bottom: 10px;
 }
+.dropdown-menu {
+    border-top: transparent;
+    border-radius: 0;
+}
 @media (max-width: 575.98px) { 
-    /* .navbar {
-        visibility: collapse;
-    } */
+    li {
+        margin-bottom: 2px;
+    }
+    li a {
+        font-size: 9px;
+    }
+    #navbarToggle {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
 }

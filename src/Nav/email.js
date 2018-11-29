@@ -13,7 +13,7 @@ class Email extends Component {
                     <div className = "col">
                         <button type="button" className = "btn btn-primary btn-sm"><i class="fas fa-lock"></i><span className = "bold">SHARE</span></button>
                     </div>
-                    <div className = "col">
+                    <div className = "col no-padding-left align-self-center">
                         <h5>fake.email@gmail.com</h5>
                     </div>
                 </div>

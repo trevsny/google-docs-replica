@@ -10,12 +10,19 @@ class Navbar extends React.Component {
     render(){
         return(
             <nav className = "navbar navbar-expand-lg">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                {/* <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
-                </button>
-                <div className = "collapse navbar-collapse" id = "navbarToggle">
+                </button> */}
+                <div className = "" id = "navbarToggle">
                     <ul className = "nav-ul navbar-nav">
-                        <li><a href="#">File</a></li>
+                    {/* Make dropdown a separate component and onClick try and match Google Doc CSS */}
+                        <li className = "dropdown">
+                            <a className = "" href = "#" role ="button" id = "fileDropdown" data-toggle = "dropdown" >File</a>
+                            <div className = "dropdown-menu" aria-labelledby = "fileDropdown">
+                                <a className = "dropdown-item" href="#">File dropdown</a>
+                                <a className = "dropdown-item" href="#">File dropdown</a>
+                            </div>
+                        </li>
                         <li><a href="#">Edit</a></li>
                         <li><a href="#">View</a></li>
                         <li><a href="#">Insert</a></li>
