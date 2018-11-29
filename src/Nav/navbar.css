@@ -1,0 +1,31 @@
+.nav-ul {
+    list-style-type: none;
+    display: inline;
+    color: black;
+    font-size: 14px;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+}
+
+.navbar {
+    border-bottom: 1px solid gray;
+    margin: 0;
+    padding: 0px;
+}
+#navbarToggle {
+    margin-left: 82px;
+    margin-bottom: 10px;
+}
+@media (max-width: 575.98px) { 
+    /* .navbar {
+        visibility: collapse;
+    } */
+}

@@ -1,0 +1,28 @@
+.file {
+    font-size: 35px;
+    color: blue;
+    /* float: left; */
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.file-div {
+    top: 12px;
+}
+.input {
+    border-color: transparent;
+    padding: 0px;
+}
+.no-gutters {
+    margin: 0;
+    margin-top: 10px;
+}
+.icons {
+    display: flex;
+    align-items: center;
+}
+h5 {
+    font-size: 14px;
+}
+.fa-star {
+    margin-right: 11px;
+}
