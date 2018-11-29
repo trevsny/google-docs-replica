@@ -1,0 +1,14 @@
+.backgroundDiv {
+    background-color: whitesmoke;
+    min-height: -webkit-fill-available;
+}
+.mainPage {
+    background-color: white;
+    z-index: 900;
+    width: 75%;
+    margin: auto;
+    min-height: -webkit-fill-available;
+    position: relative;
+    top: 5px;
+
+}
