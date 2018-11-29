@@ -1,0 +1,27 @@
+.email {
+    position: absolute;
+    right: 10px;
+}
+#email {
+    align-self: center;
+}
+.fa-lock {
+    margin-right: 6px;
+}
+.fa-comment-alt {
+    font-size: 25px;
+}
+#replace-email {
+    visibility: hidden;
+}
+.bold {
+    font-weight: bold;
+}
+@media (max-width: 575.98px) { 
+    #email {
+        display: none;
+    }
+    #replace-email {
+        visibility: visible;
+    }
+}
